@@ -1,0 +1,48 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "vite-ssg build",
+    "dev": "vite --port 3000 --open"
+  },
+  "dependencies": {
+    "@auth0/auth0-vue": "^1.0.2",
+    "@unocss/reset": "^0.45.28",
+    "@vueuse/core": "^9.3.0",
+    "@vueuse/head": "^0.9.7",
+    "gsap": "^3.10.4",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.22",
+    "three": "0.134",
+    "troisjs": "^0.3.4",
+    "vue": "^3.2.40",
+    "vue-demi": "^0.13.11",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.8",
+    "@iconify/vue": "^3.2.1",
+    "@types/markdown-it-link-attributes": "^3.0.1",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "critters": "^0.0.16",
+    "cross-env": "^7.0.3",
+   
+    "markdown-it-link-attributes": "^4.0.1",
+    "markdown-it-shiki": "^0.5.1",
+    "shiki": "^0.11.1",
+    "taze": "^0.8.2",
+    "typescript": "^4.8.4",
+    "unocss": "^0.45.28",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.6",
+    "vite-plugin-inspect": "^0.7.5",
+    "vite-plugin-pages": "^0.26.0",
+    "vite-plugin-vue-component-preview": "^0.3.3",
+    "vite-plugin-vue-layouts": "^0.7.0",
+    "vite-plugin-vue-markdown": "^0.22.1",
+    "vite-ssg": "^0.21.0",
+    "vite-ssg-sitemap": "^0.4.3",
+    "vue-tsc": "^1.0.0"
+  }
+}
